@@ -3,41 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course List</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Course Management System - Track and manage your academic courses">
+    <title>Course Management System</title>
+    <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
-    <header>
-        <h1>Available Courses</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+    <header class="header">
+        <nav class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="graduation-cap">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                    </svg>
+                    <h1>Course Management</h1>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section id="filters">
-            <label for="filter">Filter by Subject:</label>
-            <select id="filter">
-                <option value="all">All</option>
-                <option value="math">Math</option>
-                <option value="science">Science</option>
-            </select>
-        </section>
+    <main class="container">
+        <div class="hero">
+            <h2>My Courses</h2>
+            <p>Track your academic progress and manage your course load</p>
+        </div>
 
-        <section id="courses"></section>
-        
-        <section id="credits">
-            <p>Total Credits: <span id="credit-count">0</span></p>
-        </section>
+        <div class="credit-counter">
+            <h2>Total Credits</h2>
+            <p id="total-credits">0</p>
+        </div>
+
+        <div class="subject-filter" id="subject-filter">
+            <button class="filter-btn active" data-subject="all">All Courses</button>
+        </div>
+
+        <div class="course-grid" id="course-list"></div>
     </main>
 
-    <footer>
-        <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Course Management System. All rights reserved.</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>
