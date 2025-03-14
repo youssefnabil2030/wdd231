@@ -1,0 +1,78 @@
+youssefnabil2030
+youssefnabil2030
+Create styles.css
+c872116
+ · 
+1 hour ago
+
+Code
+
+Blame
+67 lines (56 loc) · 876 Bytes
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid yellow;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+#filters {
+    margin-bottom: 20px;
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+    background: #f9f9f9;
+}
+
+.completed {
+    background: lightgreen;
+}
+
+footer {
+    margin-top: 20px;
+}
