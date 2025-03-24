@@ -41,7 +41,11 @@ nav ul li a {
     text-align: center;
 }
 
-.list-view .card {
+
+.list-view {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.list-view .card {
+    display: block;
 }
