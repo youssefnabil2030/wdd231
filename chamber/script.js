@@ -50,50 +50,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 // Improved styles for a professional design
-document.head.insertAdjacentHTML("beforeend", `
-<style>
-    .card {
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        background: white;
-        transition: transform 0.3s ease-in-out;
-    }
-    .card:hover {
-        transform: translateY(-5px);
-    }
-    .card-header {
-        background: #0073e6;
-        color: white;
-        padding: 1rem;
-        text-align: center;
-    }
-    .card-body {
-        padding: 1rem;
-        text-align: left;
-    }
-    .card-footer {
-        text-align: center;
-        padding: 1rem;
-    }
-    .button {
-        display: inline-block;
-        padding: 10px 15px;
-        background: #0073e6;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background 0.3s ease;
-    }
-    .button:hover {
-        background: #005bb5;
-    }
-    .list-view .card {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-    }
-</style>
-`);
+
+
+  
