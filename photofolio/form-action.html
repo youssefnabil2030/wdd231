@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission - Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-response">
+        <h1>Form Submission</h1>
+        <div id="formData">
+            <!-- Populated by JavaScript -->
+        </div>
+        <a href="contact.html" class="button">Back to Contact</a>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const formData = document.getElementById('formData');
+            
+            const data = {
+                'Name': params.get('name'),
+                'Email': params.get('email'),
+                'Message': params.get('message')
+            };
+            
+            let html = '<dl>';
+            for (const [key, value] of Object.entries(data)) {
+                html += `
+                    <dt>${key}:</dt>
+                    <dd>${value}</dd>
+                `;
+            }
+            html += '</dl>';
+            
+            formData.innerHTML = html;
+        });
+    </script>
+</body>
+</html>
