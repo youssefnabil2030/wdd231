@@ -1,0 +1,60 @@
+{
+  "points": [
+    {
+      "id": 1,
+      "name": "Central Park",
+      "address": "123 Park Avenue, Downtown",
+      "description": "A beautiful urban park featuring walking trails, a lake, and seasonal events.",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 2,
+      "name": "Historic Library",
+      "address": "456 Main Street",
+      "description": "A stunning Victorian-era library with original architecture and modern amenities.",
+      "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 3,
+      "name": "Art Museum",
+      "address": "789 Culture Boulevard",
+      "description": "Home to local and international art exhibitions year-round.",
+      "image": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 4,
+      "name": "Farmers Market",
+      "address": "321 Fresh Plaza",
+      "description": "Weekly market featuring local produce, crafts, and entertainment.",
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 5,
+      "name": "Riverside Walk",
+      "address": "159 River Road",
+      "description": "Scenic walking path along the river with beautiful sunset views.",
+      "image": "https://images.unsplash.com/photo-1506854309843-995c2c241f8d?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 6,
+      "name": "Heritage Theater",
+      "address": "753 Broadway Avenue",
+      "description": "Historic theater showcasing local performances and classic films.",
+      "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 7,
+      "name": "Botanical Gardens",
+      "address": "951 Flora Lane",
+      "description": "Five acres of beautifully maintained gardens and greenhouses.",
+      "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=300&h=200"
+    },
+    {
+      "id": 8,
+      "name": "City Observatory",
+      "address": "357 Stargazer Hill",
+      "description": "Public observatory offering guided tours and stargazing events.",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=300&h=200"
+    }
+  ]
+}
