@@ -33,7 +33,7 @@ function createCards(data) {
         
         card.innerHTML = `
             <figure>
-                <img src="${point.image}" alt="${point.name}">
+                <img src="${point.image}" alt="${point.name}" loading="lazy">
             </figure>
             <div class="card-content">
                 <h2>${point.name}</h2>
