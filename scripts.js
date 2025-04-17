@@ -1,7 +1,7 @@
 // Load photos from JSON
 async function loadPhotos() {
     try {
-        const response = await fetch('photos.json');
+        const response = await fetch('data/photos.json');
         const data = await response.json();
         return data.photos;
     } catch (error) {
